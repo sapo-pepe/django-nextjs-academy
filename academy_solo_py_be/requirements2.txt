@@ -1,0 +1,62 @@
+
+#Auth and password
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+
+#AWS
+boto3==1.24.92
+botocore==1.27.92
+django-storages==1.13.1
+
+#Django in ASGI
+channels==3.0.5
+channels-redis==3.4.1
+
+
+Django==3.2.16
+#streamline and standardize the API
+djangorestframework-api-response==0.0.30
+
+#Communication with FE
+django-cors-headers==3.13.0
+#Create .env
+django-environ==0.9.0
+#Redis cache allows you to use either a TCP connection or Unix domain
+#socket to connect to your redis server
+django-redis==5.2.0
+
+jsonpickle==3.0.1
+
+djangorestframework==3.14.0
+
+
+#Make JWT auth
+djangorestframework-simplejwt==4.8.0
+djoser==2.1.0
+PyJWT==2.5.0
+social-auth-app-django==4.0.0
+social-auth-core==4.3.0
+
+#For Images
+Pillow==9.2.0
+mutagen==1.46.0
+
+#Allow us to connect Postgres
+psycopg2==2.9.4
+
+#Allow you make slugs
+python-slugify==6.1.2
+
+#Make auth with web3
+web3==5.31.3
+#Allow us to work with eth accounts
+eth-account==0.5.9
+
+#Deploy
+whitenoise==6.2.0
+#Deploy with ASGI
+uvicorn==0.20.0
+
+#Encryp
+LWE4==0.0.0.2
+
